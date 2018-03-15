@@ -5,4 +5,4 @@
 
 ## Documents
 
-[Style Tile](https://github.com/timtim-101/bird/blob/gh-pages/Style%20Tile.pdf)
+[Style Tile](http://tim-davidson.com/takahe/style-tile.pdf)
