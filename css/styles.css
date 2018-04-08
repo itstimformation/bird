@@ -1,0 +1,234 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-image: url(../images/grid-40.jpg);
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:url('../fonts/HelveticaNeueLTStd-BdCn.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Courier New';
+  src:url('../fonts/cour.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Courier New Bold';
+  src:url('../fonts/Courier New Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Milano Sky';
+  src:url('../fonts/MilanoSky-Regular.otf') format('opentype');
+}
+
+::-webkit-scrollbar {display:none;}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 100vh auto 70vh auto 60vh auto 70vh auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-image: url(../images/grid-40.jpg);
+  color: #fff;
+  padding: 20px;
+  overflow-y: hidden;
+
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.drop-shadow {
+    -webkit-box-shadow: inset 0 15px 100px -4px #000;
+    -moz-box-shadow: inset 0 15px 100px -4px #000;
+    box-shadow: inset 0 15px 100px -4px #000;
+}
+
+p {
+  color: #58595B;
+  font-size: 2em;
+  font-family: 'Courier New';
+  width: 30vw;
+  padding-bottom: 2em;
+  margin: auto;
+  line-height: 1.3em;
+}
+
+p.top {
+  padding-top: 3em;
+}
+
+.a {
+  background-image: url(../images/brown.jpg);
+}
+
+h1 {
+  font-family: 'Helvetica';
+  width: 50vw;
+  font-size: 10em;
+  color: #282828;
+  mix-blend-mode: ;
+  padding-left: .2em;
+}
+
+.c {
+  background-image: url(../images/fiordland.jpg);
+}
+
+h2 {
+  font-family: 'Helvetica';
+  width: 30vw;
+  font-size: 8em;
+  color: #E6E7E8;
+  padding-left: .3em;
+  padding-top: .4em;
+  margin: 0;
+  float: left;
+}
+
+p.heading {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding-top: 2em;
+  margin-left: 55vw;
+  width: 40vw;
+}
+
+.e {
+  background-image: url(../images/bird.jpg);
+  background-size: cover;
+}
+
+h2.bird {
+  font-family: 'Helvetica';
+  width: 30vw;
+  font-size: 8em;
+  color: #E6E7E8;
+  padding-left: .3em;
+  padding-top: .4em;
+  margin: 0;
+  float: right;
+  text-align: right;
+}
+
+p.heading-bird {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding-top: 2em;
+  margin-left: 1.5em;
+  width: 40vw;
+  float: left;
+}
+
+.g {
+  background-image: url(../images/orbell.jpg);
+}
+
+h2.orbell {
+  font-family: 'Helvetica';
+  width: 25vw;
+  font-size: 8em;
+  color: #E6E7E8;
+  padding-left: .3em;
+  padding-top: .4em;
+  margin: 0;
+  float: left;
+}
+
+
+.i {
+  background-image: url(../images/brown.jpg);
+}
+
+h3 {
+  font-family: 'Helvetica';
+  width: 50vw;
+  font-size: 7em;
+  color: #282828;
+  mix-blend-mode: ;
+  padding-left: .2em;
+}
+
+blockquote {
+  font-family: 'Milano Sky';
+  color: #94BB73;
+  width: 40vw;
+  font-size: 6em;
+  margin: auto;
+}
+
+cite {
+  color: #8E191C;
+  font-family: 'Courier New Bold';
+  margin: auto;
+  width: 40vw;
+}
+
+p.cite {
+  margin-top: 0;
+  padding-top: .5em;
+  padding-left: 0;
+  color: #8E191C;
+  font-weight: bold;
+}
+
+.k {
+  background-image: url(../images/brown.jpg);
+}
+
+div.map{
+  text-align: center;
+}
+
+.m {
+  background-image: url(../images/brown.jpg);
+}
+
+div.orbell-img {
+  text-align: center;
+}
+
+.o {
+  background-image: url(../images/brown.jpg);
+}
+
+.q {
+  background-image: url(../images/brown.jpg);
+}
+
+.s {
+  background-image: url(../images/brown.jpg);
+}
+
+.t {
+  background-image: url(../images/brown.jpg);
+}
