@@ -44,7 +44,7 @@ body{
 .wrapper {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 100vh auto 70vh auto 60vh auto 70vh auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: 100vh auto 70vh auto 60vh auto 70vh auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
   background-color: #fff;
   color: #444;
 }
@@ -83,6 +83,20 @@ p.top {
   padding-top: 3em;
 }
 
+p.subtitle {
+  font-weight: bold;
+  width: 50vw;
+  margin: 0;
+  margin-left: 1em;
+  line-height: 1em;
+}
+
+blockquote.subtitle {
+  padding-top: 1em;
+  width: 50vw;
+  text-align: center;
+}
+
 .a {
   background-image: url(../images/brown.jpg);
 }
@@ -93,6 +107,14 @@ h1 {
   font-size: 10em;
   color: #282828;
   mix-blend-mode: ;
+  padding-left: .2em;
+}
+
+h4 {
+  font-family: 'Milano Sky';
+  color: #8E191C;
+  font-weight: normal;
+  font-size: 10em;
   padding-left: .2em;
 }
 
@@ -201,6 +223,35 @@ p.cite {
   font-weight: bold;
 }
 
+div.takahe-table {
+  overflow-x: auto;
+}
+
+table.takahe {
+  font-family: 'Courier New';
+  color: #58595B;
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5em;
+
+}
+
+th#takahe {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+tr#takahe:hover {
+  background-color: rgb(89, 89, 89, 0.5)
+}
+
+td#takahe {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
 .k {
   background-image: url(../images/brown.jpg);
 }
@@ -230,5 +281,67 @@ div.orbell-img {
 }
 
 .t {
+
+}
+
+ul {
+  font-family: 'Courier New';
+  color: #58595B;
+  text-align: center;
+  list-style: none;
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+li {
+  padding-bottom: .5em;
+}
+
+p.facts-cite {
+  font-size: 1em;
+}
+
+.u {
   background-image: url(../images/brown.jpg);
+}
+
+div.info {
+  float: left;
+}
+
+p.footer {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 1em;
+  color: #8E191C;
+  text-align: left;
+  margin: 0;padding-top: .5em;
+}
+
+div.tim {
+  margin-right: 3em;
+  float:right;
+  text-align: right;
+  vertical-align: bottom;
+  position: relative;
+}
+
+p.tim {
+  text-align: right;
+  font-size: 1.6em;
+  padding-bottom: .2em;
+  vertical-align: text-bottom;
+
+}
+
+a {
+  color: #8E191C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: .6;
 }
