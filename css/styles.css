@@ -345,3 +345,8 @@ a {
 a:hover {
   opacity: .6;
 }
+
+img.social {
+  margin-top: .6em;
+  width: 1.9em;
+}
