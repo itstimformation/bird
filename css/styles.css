@@ -274,6 +274,7 @@ div.map{
 iframe.map {
   width: 50%;
   height: 600px;
+  border: none;
 }
 
 .m {
