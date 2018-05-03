@@ -54,7 +54,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100vw;
+  grid-template-columns: 100%;
   grid-template-rows: 100vh auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
   background-color: #fff;
   color: #444;
@@ -82,9 +82,9 @@ body {
 
 p {
   color: #58595B;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Courier New';
-  width: 50vw;
+  width: 70vw;
   padding-bottom: 2em;
   margin: auto;
   line-height: 1.3em;
@@ -130,8 +130,13 @@ h4 {
 }
 
 .c {
+  /*
   background-image: url(../images/fiordland.jpg);
+  */
+  padding: 0;
 }
+
+
 
 h2 {
   font-family: 'Helvetica';
@@ -155,8 +160,11 @@ p.heading {
 }
 
 .e {
+  /*
   background-image: url(../images/bird.jpg);
   background-size: cover;
+  */
+  padding: 0;
 }
 
 h2.bird {
@@ -183,7 +191,16 @@ p.heading-bird {
 }
 
 .g {
+  /*
   background-image: url(../images/orbell.jpg);
+  */
+  padding: 0;
+  margin: 0;
+}
+
+img.orbell2 {
+  width: 100vw;
+  padding: 0;
 }
 
 h2.orbell {
@@ -209,6 +226,7 @@ h3 {
   color: #282828;
   mix-blend-mode: ;
   padding-left: .2em;
+  padding-bottom: .1em;
 }
 
 blockquote {
@@ -233,6 +251,7 @@ p.cite {
   color: #8E191C;
   font-weight: bold;
   width: 40vw;
+  font-size: 1em;
 }
 
 div.takahe-table {
@@ -484,6 +503,7 @@ div.info {
 
 }
 
+/*
 @media (max-width: 1711px) {
 
   .c {
@@ -497,3 +517,4 @@ div.info {
   .g {
     display: none;
   }
+*/
